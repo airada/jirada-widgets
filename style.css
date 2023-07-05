@@ -1,0 +1,38 @@
+html, body {
+    background-color: #F8F9FA;
+}
+
+.container-body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+p {
+    padding-bottom: 25px;
+}
+
+#widgets {
+    padding-bottom: 25px;
+}
+
+.card {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+footer {
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index: 0;
+    background-color: #F8F9FA;
+}
