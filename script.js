@@ -9,7 +9,6 @@ function createWidgetElement(img_src, alt_text, url) {
     const widget = createElement("div", ["card", "rounded-4"]);
     const widget_img = createElement("img", ["card-img-top","rounded-4"]);
 
-    //TO-DO: Update alt text and href to actual widget information.
     widget_img.src = img_src;
     widget_img.alt = alt_text
     container.href = url;
@@ -18,9 +17,6 @@ function createWidgetElement(img_src, alt_text, url) {
     container.appendChild(widget);
     return container;
 }
-
-//TO-DO: Replace img_src paths with widget images.
-// let img_src = "assets/img/inu.png";
 
 const widget_group = document.getElementById("widgets");
 
