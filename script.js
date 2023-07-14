@@ -26,7 +26,7 @@ function createWidgetElement(title, img_src, alt_text, url) {
 
 const widget_group = document.getElementById("widgets");
 
-let widget_daily_quote = createWidgetElement("Daily Quotations Widget","assets/img/jirada-daily-quote.jpg", "Daily Quotation widget with iOS Banner notification interface.", "https://jasmineirada.com/jirada-daily-quote/");
+let widget_daily_quote = createWidgetElement("Daily Quotations Widget","assets/img/jirada-daily-quote.jpg", "Daily Quotation widget with iOS Banner notification interface.", "https://jirada-daily-quote.onrender.com/");
 widget_group.appendChild(widget_daily_quote);
 
 
